@@ -5,7 +5,7 @@ interface ITarotPriceOracle {
         address indexed pair,
         uint256 priceCumulative,
         uint32 blockTimestamp,
-        bool lastIsA
+        bool latestIsSlotA
     );
 
     function MIN_T() external pure returns (uint32);
